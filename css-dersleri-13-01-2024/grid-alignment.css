@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    background-color: #f7786b;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(3,20%);
+    grid-template-rows: repeat(2,20%);
+    gap: 10px;
+    height: 600px;
+    background-color: yellow;
+
+    /* justify-items: stretch; //Defaul değer */
+    /* justify-items: center; */
+    /* justify-items: start; */
+    /* justify-items: end; */
+
+    /* align-items: stretch; //Default değer */
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+
+    /* justify-content: start; //Default değer */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+    /* align-content: start; //Default değer */
+    /* align-content: center; */
+    /* align-content: end; */
+
+}
+
+.item:first-child{
+    /* align-self: stretch; //Default değer */
+    /* align-self: start; */
+    /* align-self: center; */
+    /* align-self: end; */
+
+    /* justify-self: stretch; //Defaul değer  */
+    /* justify-self: start; */
+    /* justify-self: center; */
+    /* justify-self: end; */
+}
